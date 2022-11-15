@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="\css/styless.css">
+    <link rel="stylesheet" href="/goit-markup-hw-03/css/styles.css">
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
     <title>Document</title>
 </head>
@@ -13,15 +13,15 @@
         <a class="logo" href="#">WebStudio</a>
         <nav class="nav-bar">
             <ul class="menu">
-                <li><a class="menu-link" href="/index.html">Studio</a></li> 
-                <li><a class="menu-link" href="/portfolio.html">Portafolio</a></li>
+                <li><a class="menu-link" href="/goit-markup-hw-03/index.html">Studio</a></li> 
+                <li><a class="menu-link" href="/goit-markup-hw-03/portfolio.html">Portafolio</a></li>
                 <li><a class="menu-link" href="/Contacts">Contacts</a></li> 
             </ul>
         </nav>
-
-         <a class="menu-contact" href="mailto:info@devstudio.com">info@devstudio.com</a>
-         <a class="menu-contact" href="tel:+12127724150">+1 212-772-4150</a>
-
+        <ul class="contact">
+         <li><a class="menu-contact" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+         <li><a class="menu-contact" href="tel:+12127724150">+1 212-772-4150</a></li>
+        </ul>
     </header>
     <main>
 <article class="content">
@@ -54,28 +54,31 @@
       
     <section>
         <h2 class="title-second">What we do</h2>
-        <img src="images/image1.jpg" alt="person typing on computer" width="370">
-        <img src="images/image2.jpg" alt="person with cell phone in hand working on a computer" width="370">
-        <img src="images/image3.jpg" alt="person designing on tablet" width="370">
+        <ul class="what-we-do">
+            <li><img class="we-do" src="images/image1.jpg" alt="person typing on computer" width="370"></li>
+            <li><img class="we-do" src="images/image2.jpg" alt="person with cell phone in hand working on a computer" width="370"></li>
+            <li><img class="we-do" src="images/image3.jpg" alt="person designing on tablet" width="370"></li>
+        </ul>
+              
     </section> 
-<section>
+<section class="our team">
     <h2 class="title-second">Our Team</h2>
     <ul class="list-team">
-        <li>
+        <li class="card-team">
             <img src="images/image4.jpg" alt="Christopher Walker" width="270">
             <h4 class="team-title">Christopher Walker</h4>
             <p>Product Designer</p>
         </li>
-        <li>
+        <li class="card-team">
             <img src="images/image5.jpg" alt="Kylie Evans" width="270">
             <h4 class="team-title">Kylie Evans</h4>
             <p>Frontend Developer</p>
         </li>
-        <li>
+        <li class="card-team">
             <img src="images/image6.jpg" alt="Ryan Harris" width="270">
             <h4 class="team-title">Ryan Harris</h4><p>Marketing</p>
         </li>
-        <li>
+        <li class="card-team">
             <img src="images/image7.jpg" alt="Tyler Moore" width="270">
             <h4 class="team-title">Tyler Moore</h4>
             <p>UI Designer</p>
@@ -85,7 +88,7 @@
     </main> 
     <footer class="footer">
         <a class="logo" href="/webstudio">WebStudio</a>
-        <address>
+        <address class="add-contact">
             <p class="address">695 Park Ave, New York, NY 10065, United States</p>
             <a class="footer-contact" href="mailto:info@devstudio.com">info@devstudio.com</a>
             <a class="footer-contact" href="tel:+12127724150">+1 212-772-4150</a>
