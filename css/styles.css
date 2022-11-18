@@ -57,6 +57,7 @@ a{
   align-items: center;
   height: 80px;
   padding: 50px;
+  border-bottom: 1px solid var(--backgroun-color-buttonport);
 }
 
 .nav-bar{
@@ -68,7 +69,8 @@ a{
 .nav-bar .menu {
     display: inline-flex;
     list-style: none;
-    gap:80px;
+    margin:150px;
+    
     
 }
 
@@ -78,8 +80,9 @@ a{
     line-height: 14px;
     list-style: none;
     text-decoration: none;
-    margin-right: 30px;
+    margin-right: 80px;
     text-transform: capitalize;
+    
     
 }
 .menu-link:hover{
@@ -91,7 +94,7 @@ a{
 .contact{
     display: inline-flex;
     list-style: none;
-    gap: 80px;
+    gap: 30px;
 
 }
 .menu-contact{
