@@ -9,27 +9,31 @@
     <title>Document</title>
 </head>
 <body>
-    <header class="header">
-        <a class="logo" href="#">WebStudio</a>
-        <nav class="nav-bar">
+    <header class="header-nav">
+        <div class="container">
+            <nav class="nav-bar">
+            <a class="logo" href="#">WebStudio</a>
             <ul class="menu">
                 <li><a class="menu-link" href="/goit-markup-hw-03/index.html">Studio</a></li> 
                 <li><a class="menu-link" href="/goit-markup-hw-03/portfolio.html">Portafolio</a></li>
                 <li><a class="menu-link" href="/Contacts">Contacts</a></li> 
             </ul>
         </nav>
+
         <ul class="contact">
          <li><a class="menu-contact" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
          <li><a class="menu-contact" href="tel:+12127724150">+1 212-772-4150</a></li>
         </ul>
+        </div>
     </header>
     <main>
-<article class="content">
-    <h1 class="article-title">EFFECTIVE SOLUTIONS FOR YOUR BUSINESS</h1>
+<section class="content">
+    <h1 class="content-title">EFFECTIVE SOLUTIONS FOR YOUR BUSINESS</h1>
     <button type="button" class="button-main">Request our service</button>
-</article>
+</section>
 
-<section>
+<section class="section">
+    <div class="container">
     <ul class="services">
         <li>
             <h4 class="services-title">ATTENTION TO DETAILS</h4>
@@ -50,19 +54,22 @@
             <p class="services-text">We use innovative tools to solve assigned tasks. It's time to simplify work processes.</p>
         </li>
     </ul>
+    </div>
 </section>
       
-    <section>
+    <section class="section">
         <h2 class="title-second">What we do</h2>
+        <div class="container"></div>
         <ul class="what-we-do">
             <li><img class="we-do" src="images/image1.jpg" alt="person typing on computer" width="370"></li>
             <li><img class="we-do" src="images/image2.jpg" alt="person with cell phone in hand working on a computer" width="370"></li>
             <li><img class="we-do" src="images/image3.jpg" alt="person designing on tablet" width="370"></li>
         </ul>
-              
+        </div>      
     </section> 
-<section class="our team">
+<section class="our-team">
     <h2 class="title-second">Our Team</h2>
+    <div class="container">
     <ul class="list-team">
         <li class="card-team">
             <img src="images/image4.jpg" alt="Christopher Walker" width="270">
@@ -84,16 +91,20 @@
             <p>UI Designer</p>
         </li>
     </ul>
+    </div>
 </section>
     </main> 
     <footer class="footer">
+    <div class="container">
         <a class="logo" href="/webstudio">WebStudio</a>
         <address class="add-contact">
-            <p class="address">695 Park Ave, New York, NY 10065, United States</p>
-            <a class="footer-contact" href="mailto:info@devstudio.com">info@devstudio.com</a>
-            <a class="footer-contact" href="tel:+12127724150">+1 212-772-4150</a>
+            <ul>
+                <li><p class="address">695 Park Ave, New York, NY 10065, United States</p></li>
+                <li><a class="footer-contact" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+                <li><a class="footer-contact" href="tel:+12127724150">+1 212-772-4150</a></li>
+            </ul>           
         </address>
-        
+    </div>
     </footer>
 </body>
 </html>
