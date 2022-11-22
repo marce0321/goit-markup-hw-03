@@ -54,12 +54,14 @@ header{
     justify-content: space;
     align-items: center;
     height: 80px;
-    justify-content: space-around;    
+    justify-content: space-around;
+    border-bottom: 1px solid var(--backgroun-color-gray);    
 }
 header nav {
     display:flex;
     align-items: center;
     gap: 00px;
+    
   }
 header .logo{
     color:var(--color-blue);
